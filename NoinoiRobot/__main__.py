@@ -94,7 +94,7 @@ buttons = [
     ],
    [
         InlineKeyboardButton(text="👮 Full Help", callback_data="help_back"),
-        InlineKeyboardButton(text="Support 🚑", callback_data="source_back"),
+        InlineKeyboardButton(text="Support 🚑", callback_data="noi_"),
     ],
     [  
         InlineKeyboardButton(text=" Summon me 🧩", url=f"t.me/Azuka_robot?startgroup=new"),
@@ -355,9 +355,9 @@ def help_button(update, context):
     except BadRequest:
         pass
 
-def emiko_about_callback(update, context):
+def noi_about_callback(update, context):
     query = update.callback_query
-    if query.data == "emiko_":
+    if query.data == "noi_":
         query.message.edit_text(
             text=f"๏ I'm *{dispatcher.bot.first_name}*, a powerful group management bot built to help you manage your group easily."
             "\n• I can restrict users."
@@ -373,18 +373,18 @@ def emiko_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="• Admins", callback_data="emiko_admin"),
-                    InlineKeyboardButton(text="Notes •", callback_data="emiko_notes"),
+                    InlineKeyboardButton(text="• Admins", callback_data="noi_admin"),
+                    InlineKeyboardButton(text="Notes •", callback_data="noi_notes"),
                  ],
                  [
-                    InlineKeyboardButton(text="• Support", callback_data="emiko_support"),
-                    InlineKeyboardButton(text="Credits •", callback_data="emiko_credit"),
+                    InlineKeyboardButton(text="• Support", callback_data="noi_support"),
+                    InlineKeyboardButton(text="Credits •", callback_data="noi_credit"),
                  ],
                  [
                     InlineKeyboardButton(text="• Help & Command °", callback_data="help_back"),
                  ],
                  [
-                    InlineKeyboardButton(text="[► Back ◄]", callback_data="source_back"),
+                    InlineKeyboardButton(text="[► Back ◄]", callback_data="noi_"),
                  ]
                 ]
             ),
@@ -403,7 +403,7 @@ def emiko_about_callback(update, context):
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="[► Back ◄]", callback_data="emiko_")]]
+                [[InlineKeyboardButton(text="[► Back ◄]", callback_data="noi_")]]
             ),
         )
 
