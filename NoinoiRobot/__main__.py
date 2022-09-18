@@ -94,7 +94,7 @@ buttons = [
     ],
    [
         InlineKeyboardButton(text="👮 Full Help", callback_data="help_back"),
-        InlineKeyboardButton(text="Support 🚑", url=f"t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="Support 🚑", callback_data="emiko_""),
     ],
     [  
         InlineKeyboardButton(text=" Summon me 🧩", url=f"t.me/Azuka_robot?startgroup=new"),
@@ -354,6 +354,133 @@ def help_button(update, context):
 
     except BadRequest:
         pass
+
+def emiko_about_callback(update, context):
+    query = update.callback_query
+    if query.data == "emiko_":
+        query.message.edit_text(
+            text=f"๏ I'm *{dispatcher.bot.first_name}*, a powerful group management bot built to help you manage your group easily."
+            "\n• I can restrict users."
+            "\n• I can greet users with customizable welcome messages and even set a group's rules."
+            "\n• I have an advanced anti-flood system."
+            "\n• I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc."
+            "\n• I have a note keeping system, blacklists, and even predetermined replies on certain keywords."
+            "\n• I check for admins' permissions before executing any command and more stuffs"
+            f"\n\n_{dispatcher.bot.first_name}'s licensed under the GNU General Public License v3.0_"
+            f"\n\n Click on button bellow to get basic help for {dispatcher.bot.first_name}.",
+            parse_mode=ParseMode.MARKDOWN,
+            disable_web_page_preview=True,
+            reply_markup=InlineKeyboardMarkup(
+                [
+                 [
+                    InlineKeyboardButton(text="• Admins", callback_data="emiko_admin"),
+                    InlineKeyboardButton(text="Notes •", callback_data="emiko_notes"),
+                 ],
+                 [
+                    InlineKeyboardButton(text="• Support", callback_data="emiko_support"),
+                    InlineKeyboardButton(text="Credits •", callback_data="emiko_credit"),
+                 ],
+                 [
+                    InlineKeyboardButton(text="• Help & Command °", callback_data="help_back"),
+                 ],
+                 [
+                    InlineKeyboardButton(text="[► Back ◄]", callback_data="source_back"),
+                 ]
+                ]
+            ),
+        )
+
+    elif query.data == "emiko_admin":
+        query.message.edit_text(
+            text=f"*๏ Let's make your group bit effective now*"
+            f"\nCongragulations, {dispatcher.bot.first_name} now ready to manage your group."
+            "\n\n*Admin Tools*"
+            "\nBasic Admin tools help you to protect and powerup your group."
+            "\nYou can ban members, Kick members, Promote someone as admin through commands of bot."
+            "\n\n*Greetings*"
+            "\nLets set a welcome message to welcome new users coming to your group."
+            "\nsend `/setwelcome [message]` to set a welcome message!",
+            parse_mode=ParseMode.MARKDOWN,
+            disable_web_page_preview=True,
+            reply_markup=InlineKeyboardMarkup(
+                [[InlineKeyboardButton(text="[► Back ◄]", callback_data="emiko_")]]
+            ),
+        )
+
+    elif query.data == "emiko_notes":
+        query.message.edit_text(
+            text=f"<b>๏ Setting up notes</b>"
+            f"\nYou can save message/media/audio or anything as notes"
+            f"\nto get a note simply use # at the beginning of a word"
+            f"\n\nYou can also set buttons for notes and filters (refer help menu)",
+            parse_mode=ParseMode.HTML,
+            reply_markup=InlineKeyboardMarkup(
+                [[InlineKeyboardButton(text="[► Back ◄]", callback_data="emiko_")]]
+            ),
+        )
+    elif query.data == "emiko_support":
+        query.message.edit_text(
+            text="*๏ Emiko support chats*"
+            f"\nJoin My Support Group/Channel for see or report a problem on {dispatcher.bot.first_name}.",
+            parse_mode=ParseMode.MARKDOWN,
+            reply_markup=InlineKeyboardMarkup(
+                [
+                 [
+                    InlineKeyboardButton(text="• Support", url="t.me/Team_shadow_support"),
+                    InlineKeyboardButton(text="Updates •", url="https://t.me/team_shadow_xD"),
+                 ],
+                 [
+                    InlineKeyboardButton(text="[► Back ◄]", callback_data="emiko_"),
+                 
+                 ]
+                ]
+            ),
+        )
+
+
+    elif query.data == "emiko_credit":
+        query.message.edit_text(
+            text=f"๏ Credis for {dispatcher.bot.first_name}\n"
+            f"\nHere Developers Making And Give Inspiration For Made The {dispatcher.bot.first_name}",
+            parse_mode=ParseMode.MARKDOWN,
+            reply_markup=InlineKeyboardMarkup(
+                [
+                 [
+                    InlineKeyboardButton(text="• Shadow", url="t.me/itz_shadow_xD"),
+                    InlineKeyboardButton(text="Samuel •", url="T.me/piro_x_power"),
+                 ],
+                 [                   
+                    InlineKeyboardButton(text="[► Back ◄]", callback_data="emiko_"),
+                 ]
+                ]
+            ),
+        )
+
+def Source_about_callback(update, context):
+    query = update.callback_query
+    if query.data == "source_":
+        query.message.edit_text(
+            text="๏›› This advance command for Musicplayer."
+            "\n\n๏ Command for admins only."
+            "\n • `/reload` - For refreshing the adminlist."
+            "\n • `/pause` - To pause the playback."
+            "\n • `/resume` - To resuming the playback You've paused."
+            "\n • `/skip` - To skipping the player."
+            "\n • `/end` - For end the playback."
+            "\n • `/musicplayer <on/off>` - Toggle for turn ON or turn OFF the musicplayer."
+            "\n\n๏ Command for all members."
+            "\n • `/play` <query /reply audio> - Playing music via YouTube."
+            "\n • `/playlist` - To playing a playlist of groups or your personal playlist",
+            parse_mode=ParseMode.MARKDOWN,
+            disable_web_page_preview=True,
+            reply_markup=InlineKeyboardMarkup(
+                [
+                 [
+                    InlineKeyboardButton(text="[► Back ◄]", callback_data="emiko_")
+                 ]
+                ]
+            ),
+        )
 
 @run_async
 def noi_about_callback(update, context):
