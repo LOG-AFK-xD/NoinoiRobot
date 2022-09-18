@@ -77,11 +77,15 @@ def get_readable_time(seconds: int) -> str:
 NOINOI_IMG = "https://telegra.ph/file/a439299736dc1fe3928e3.jpg"
 
 PM_START_TEXT = """
-**ɪ ᴀᴍ ɴᴏɪɴᴏɪ🌸🤖** [ㅤ](https://telegra.ph/file/a439299736dc1fe3928e3.jpg)
-️➖➖➖➖➖➖➖➖➖➖➖➖➖
-**sᴜᴘᴇʀғᴀsᴛ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ 🌸. ғᴇᴇʟ ғʀᴇᴇ ᴛᴏ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs!!**
-️➖➖➖➖➖➖➖➖➖➖➖➖➖
-☉ **ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ғᴏʀ ᴍᴏʀᴇ.**
+*⁜ Hello {} !* My Name is ♡ Elixa Robot ♡. I can manage your group with lots of useful features, feel free to add me to your group.[♡](https://telegra.ph/file/01cefc559bbe93c6b4cac.jpg)
+➖➖➖➖➖➖➖➖➖➖➖➖➖
+❍ *Uptime:* `{}`
+❍ `{}` *users, across* `{}` *chats.*
+➖➖➖➖➖➖➖➖➖➖➖➖➖
+♡ Try The Help Buttons Below To Know My Abilities.××
+───────────────────────
+♡ Maintained By :- [Shadow xD](t.me/itz_shadow_xD)
+───────────────────────
 """
 
 buttons = [
@@ -105,11 +109,13 @@ buttons = [
 
 
 HELP_STRINGS = """
-**Main commands:**  [ㅤ](https://telegra.ph/file/a439299736dc1fe3928e3.jpg)
-❂ /start: sᴛᴀʀᴛ ᴍᴇ ʏᴏᴜ ʜᴀᴠᴇ ᴘʀᴏʙᴀʙʟʏ ᴀʟʀᴇᴀᴅʏ ᴜsᴇᴅ ᴛʜɪs..
-❂ /help: sᴇɴᴅ ᴛʜɪs ᴍᴇssᴀɢᴇ ɪ ᴡɪʟʟ ᴛᴇʟʟ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴍʏsᴇʟғ.
-
-ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ᴇɪᴛʜᴇʀ ʙᴇ ᴜsᴇᴅ ᴇɪᴛʜᴇʀ / ᴏʀ  ! ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ʀᴇᴘᴏʀᴛ ᴀɴʏ ʙᴜɢs ᴏʀ ɴᴇᴇᴅ ʜᴇʟᴘ ᴡɪᴛʜ sᴇᴛᴛɪɴɢ ᴜᴘ ʀᴇᴀᴄʜ ᴜs ᴀᴛ ʜᴇᴀʀ"""
+Main commands available:
+➛ /help: PM's you this message.
+➛ /help <module name>: PM's you info about that module.
+➛ /donate: information on how to donate!
+➛ /settings:
+   ➛ in PM: will send you your settings for all supported modules.
+   ➛ in a group: will redirect you to pm, with all that chat's settings.."""
 
 
 
