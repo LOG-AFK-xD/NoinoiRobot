@@ -77,34 +77,29 @@ def get_readable_time(seconds: int) -> str:
 NOINOI_IMG = "https://telegra.ph/file/a439299736dc1fe3928e3.jpg"
 
 PM_START_TEXT = """
-*⁜ Hello {} !* My Name is ♡ Elixa Robot ♡. I can manage your group with lots of useful features, feel free to add me to your group.[♡](https://telegra.ph/file/01cefc559bbe93c6b4cac.jpg)
+*🌈 Hello Friends !* My Name is ♡ Azuka Robot ♡. I can manage your group with lots of useful features, feel free to add me to your group.[♡](https://telegra.ph/file/01cefc559bbe93c6b4cac.jpg)
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
-❍ *Uptime:* `{}`
-❍ `{}` *users, across* `{}` *chats.*
+A Powerful Smart Group Robot With Many Amazing Features. I Can Help You To Manage Your Groups.
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 ♡ Try The Help Buttons Below To Know My Abilities.××
 ───────────────────────
-♡ Maintained By :- [Shadow xD](t.me/itz_shadow_xD)
+♡ Maintained By :- [𐏓〬⃝ ⸙‌ٖٖٖٖٖٖٜٖٖٖٖٖٖ Official ➣LOG⛦ AFK xͮD ⸙‌ٖٖٖٖٖٖٜٖٖٖٖٖٖ ااـ꯭](t.me/Official_afk_xD).
 ───────────────────────
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="✨ Uᴘᴅᴀᴛᴇ", url="https://t.me/BAZIGARXD"),
-        InlineKeyboardButton(text=" ᴀʙᴏᴜᴛ", callback_data="noi_about"),
-        InlineKeyboardButton(text="📣 Uᴘᴅᴀᴛᴇ", url="https://t.me/CFC_BOT_SUPPORT"),
-
+        InlineKeyboardButton(text="🧩 About ", callback_data="noi_about"),
+        InlineKeyboardButton(text="Music 🎧", callback_data="noi_"),
     ],
-    [
-        InlineKeyboardButton(text="❓ Cᴏᴍᴍᴀɴᴅꜱ", callback_data="help_back"),
-        InlineKeyboardButton(
-            text="📍 Mᴜꜱɪᴄ", callback_data="noi_"
-        ),
+   [
+        InlineKeyboardButton(text="👮 Full Help", callback_data="help_back"),
+        InlineKeyboardButton(text="Updates 📨", url=f"t.me/{SUPPORT_CHAT}"),
     ],
-    [
-        
-        InlineKeyboardButton(text="Aᴅᴅ ᴍᴇ ᴛᴏ ɢʀᴏᴜᴘ ✨", url="http://t.me/NOINOI_BOT?startgroup=true"),
-    ],
+    [  
+        InlineKeyboardButton(text="➕ Add me to your Group ➕", url=f"t.me/{bu}?startgroup=new"),
+    ], 
+    
 ]
 
 
@@ -119,8 +114,8 @@ Main commands available:
 
 
 
-DONATE_STRING = """ʜᴇʜᴇ ʏᴏᴜ ᴄᴀɴ ᴅᴏɴᴇᴛ ғʀᴏᴍ ʜᴇᴀʀ!
- [NOINOI](https://t.me/BAZIGARXD) ❤️
+DONATE_STRING = """Hehe You Can Donate From Here!
+ [Azuka](https://t.me/Official_afk_xD) ❤️
 """
 
 IMPORTED = {}
