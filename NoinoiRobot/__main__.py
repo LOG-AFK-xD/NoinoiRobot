@@ -74,10 +74,10 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-NOINOI_IMG = "https://telegra.ph/file/a439299736dc1fe3928e3.jpg"
+NOINOI_IMG = "https://telegra.ph/file/0afc9401213cab54fadca.jpg"
 
 PM_START_TEXT = """
-*🌈 Hello Friends !* My Name is ♡ Azuka Robot ♡. I can manage your group with lots of useful features, feel free to add me to your group.[♡](https://telegra.ph/file/01cefc559bbe93c6b4cac.jpg)
+*🌈 Hello Friends !* My Name is Azuka Robot.[♡](https://telegra.ph/file/0afc9401213cab54fadca.jpg)
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 A Powerful Smart Group Robot With Many Amazing Features. I Can Help You To Manage Your Groups.
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
@@ -94,10 +94,10 @@ buttons = [
     ],
    [
         InlineKeyboardButton(text="👮 Full Help", callback_data="help_back"),
-        InlineKeyboardButton(text="Updates 📨", url=f"t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="Support 👷🏻", url=f"t.me/{SUPPORT_CHAT}"),
     ],
     [  
-        InlineKeyboardButton(text="➕ Add me to your Group ➕", url=f"t.me/Azuka_robot?startgroup=new"),
+        InlineKeyboardButton(text="🧩 Summon me 🧩", url=f"t.me/Azuka_robot?startgroup=new"),
     ], 
     
 ]
