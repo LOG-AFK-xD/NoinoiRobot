@@ -217,14 +217,14 @@ def start(update: Update, context: CallbackContext):
 
         else:
             update.effective_message.reply_text(
-                PM_START_TEXT.format(                  
+                PM_START_TEXT,
                 reply_markup=InlineKeyboardMarkup(buttons),
                 parse_mode=ParseMode.MARKDOWN,
                 timeout=60,
             )
     else:
         update.effective_message.reply_photo(
-            NOINOI_IMG, caption= "I a'm alive 💔 \n<b>I cant sleep.:</b> <code>{}</code>".format(
+            NOINOI_IMG, caption= "I a'm alive 🙂 \n<b>I cant sleep.:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
