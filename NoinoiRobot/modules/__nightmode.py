@@ -169,12 +169,11 @@ scheduler.start()
 
 
 
-__mod_name__ = "ɴɪɢʜᴛ"
+__mod_name__ = "Nɪɢʜᴛ"
 
 __help__ = """
-𝗣𝗟𝗨𝗚𝗜𝗡𝗦 𝗙𝗥𝗢𝗠 𝗡𝗢𝗜𝗡𝗢𝗜 𝗕𝗢𝗧 📚
+Plugins From Azuka Bot 📚
 
 ❍ /nightmod - `( on / off ) for daay mod or night mod.`
 
-*🌸 𝗣𝗢𝗪𝗘𝗗 𝗕𝗬 𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗣𝗟𝗔𝗬𝗘𝗥*
 """
