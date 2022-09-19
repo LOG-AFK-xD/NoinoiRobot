@@ -429,4 +429,4 @@ async def del_profanity(event):
 #
 
 
-__mod_name__ = "sʜɪᴇʟᴅ"
+__mod_name__ = "Seʜɪᴇʟᴅ"
