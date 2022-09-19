@@ -94,7 +94,7 @@ buttons = [
     ],
    [
         InlineKeyboardButton(text="👮 Full Help", callback_data="help_back"),
-        InlineKeyboardButton(text="Support 🚑", callback_data="noi_"),
+        InlineKeyboardButton(text="Support 🚑", url=f"t.me/{SUPPORT_CHAT}"),
     ],
     [  
         InlineKeyboardButton(text=" Summon me 🧩", url=f"t.me/Azuka_robot?startgroup=new"),
