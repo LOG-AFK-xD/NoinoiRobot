@@ -217,8 +217,7 @@ def start(update: Update, context: CallbackContext):
 
         else:
             update.effective_message.reply_text(
-                PM_START_TEXT.format(
-                    escape_markdown(first_name),
+                PM_START_TEXT.format(                  
                     escape_markdown(uptime),
                     sql.num_users(),
                     sql.num_chats()),
