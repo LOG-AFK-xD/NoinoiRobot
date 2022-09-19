@@ -566,8 +566,8 @@ def noi_about_callback(update, context):
                     InlineKeyboardButton(text="Updates •", url=f"https://t.me/{DONATION_LINK}"),
                  ],
                  [
-                    InlineKeyboardButton(text="• Support", callback_data="emiko_support"),
-                    InlineKeyboardButton(text="Credits •", callback_data="emiko_credit"),
+                    InlineKeyboardButton(text="• Support", callback_data="noi_sources_"),
+                    InlineKeyboardButton(text="Credits •", callback_data="noi_credit"),
                  ],
                  [
                     InlineKeyboardButton(text="[► Back ◄]", callback_data="noi_back"),
@@ -578,7 +578,7 @@ def noi_about_callback(update, context):
         )
 
 
-    elif query.data == "emiko_credit":
+    elif query.data == "noi_credit":
         query.message.edit_text(
             text=f"๏ Credis for {dispatcher.bot.first_name}\n"
             f"\nHere Developers Making And Give Inspiration For Made The {dispatcher.bot.first_name}",
@@ -586,11 +586,11 @@ def noi_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="• Shadow", url="t.me/itz_shadow_xD"),
+                    InlineKeyboardButton(text="• Harsh", url="t.me/official_afk_xD"),
                     InlineKeyboardButton(text="Samuel •", url="T.me/piro_x_power"),
                  ],
                  [                   
-                    InlineKeyboardButton(text="[► Back ◄]", callback_data="emiko_"),
+                    InlineKeyboardButton(text="[► Back ◄]", callback_data="noi_back"),
                  ]
                 ]
             ),
@@ -616,7 +616,7 @@ def Source_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="[► Back ◄]", callback_data="emiko_")
+                    InlineKeyboardButton(text="[► Back ◄]", callback_data="noi_back")
                  ]
                 ]
             ),
