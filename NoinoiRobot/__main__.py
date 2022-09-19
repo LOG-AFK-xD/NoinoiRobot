@@ -566,7 +566,7 @@ def noi_about_callback(update, context):
                     InlineKeyboardButton(text="Updates •", url=f"https://t.me/{DONATION_LINK}"),
                  ],
                  [
-                    InlineKeyboardButton(text="• Support", callback_data="noi_sources_"),
+                    InlineKeyboardButton(text="• Basic info", callback_data="noi_music"),
                     InlineKeyboardButton(text="Credits •", callback_data="noi_credit"),
                  ],
                  [
