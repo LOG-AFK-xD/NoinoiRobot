@@ -566,7 +566,7 @@ def noi_about_callback(update, context):
                     InlineKeyboardButton(text="Updates •", url=f"https://t.me/{DONATION_LINK}"),
                  ],
                  [
-                    InlineKeyboardButton(text="• Basic info", callback_data="noi_music"),
+                    InlineKeyboardButton(text="• Creator", url=f"t.me/Official_afk_xD"),
                     InlineKeyboardButton(text="Credits •", callback_data="noi_credit"),
                  ],
                  [
@@ -591,30 +591,6 @@ def noi_about_callback(update, context):
                  ],
                  [                   
                     InlineKeyboardButton(text="[► Back ◄]", callback_data="noi_back"),
-                 ]
-                ]
-            ),
-        )
-
-elif query.data == "noi_music":
-        query.message.edit_text(
-            text=f"๏›› This advance command for Musicplayer."
-            f"\n\n๏ Command for admins only."
-            f"\n • `/reload` - For refreshing the adminlist."
-            f"\n • `/pause` - To pause the playback."
-            f"\n • `/resume` - To resuming the playback You've paused."
-            f"\n • `/skip` - To skipping the player."
-            f"\n • `/end` - For end the playback."
-            f"\n • `/musicplayer <on/off>` - Toggle for turn ON or turn OFF the musicplayer."
-            f"\n\n๏ Command for all members."
-            f"\n • `/play` <query /reply audio> - Playing music via YouTube."
-            f"\n • `/playlist` - To playing a playlist of groups or your personal playlist",
-            parse_mode=ParseMode.MARKDOWN,
-            disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup(
-                [
-                 [
-                    InlineKeyboardButton(text="[► Back ◄]", callback_data="noi_back")
                  ]
                 ]
             ),
