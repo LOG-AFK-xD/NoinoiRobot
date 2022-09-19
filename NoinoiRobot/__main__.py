@@ -596,9 +596,7 @@ def noi_about_callback(update, context):
             ),
         )
 
-def Sources_about_callback(update, context):
-    query = update.callback_query
-    if query.data == "sources_":
+elif query.data == "noi_music":
         query.message.edit_text(
             text="๏›› This advance command for Musicplayer."
             "\n\n๏ Command for admins only."
