@@ -389,5 +389,5 @@ async def q(event):
     os.remove('sticker.webp')
     
     
-__mod_name__ = "ϙᴜᴏᴛʟʏ"
+__mod_name__ = "Qᴜᴏᴛʟʏ"
 
