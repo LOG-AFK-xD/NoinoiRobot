@@ -596,7 +596,7 @@ def noi_about_callback(update, context):
             ),
         )
 
-def Source_about_callback(update, context):
+def Sources_about_callback(update, context):
     query = update.callback_query
     if query.data == "sources_":
         query.message.edit_text(
