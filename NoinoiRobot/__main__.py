@@ -1,16 +1,9 @@
-import html
-import os
-import json
 import importlib
 import time
 import re
-import sys
-import traceback
-import NoinoiRobot.modules.sql.users_sql as sql
 from sys import argv
 from typing import Optional
-from telegram import __version__ as peler
-from platform import python_version as memek
+
 from NoinoiRobot import (
     ALLOW_EXCL,
     CERT_PATH,
@@ -125,7 +118,8 @@ DONATE_STRING = """Hehe You Can Donate From Here!
  [Azuka](https://t.me/Official_afk_xD) ❤️
 """
 
-RATEABLE = []
+IMPORTED = {}
+MIGRATEABLE = []
 HELPABLE = {}
 STATS = []
 USER_INFO = []
@@ -141,8 +135,6 @@ for module_name in ALL_MODULES:
 
     if imported_module.__mod_name__.lower() not in IMPORTED:
         IMPORTED[imported_module.__mod_name__.lower()] = imported_module
-    else:
-        raise Exception("Can't have two modules with the same name! Please change one")
 
     if hasattr(imported_module, "__help__") and imported_module.__help__:
         HELPABLE[imported_module.__mod_name__.lower()] = imported_module
@@ -168,7 +160,6 @@ for module_name in ALL_MODULES:
 
     if hasattr(imported_module, "__user_settings__"):
         USER_SETTINGS[imported_module.__mod_name__.lower()] = imported_module
-
 
 
 # do not async
@@ -227,16 +218,13 @@ def start(update: Update, context: CallbackContext):
         else:
             update.effective_message.reply_text(
                 PM_START_TEXT.format(                  
-                    escape_markdown(uptime),
-                    sql.num_users(),
-                    sql.num_chats()),
                 reply_markup=InlineKeyboardMarkup(buttons),
                 parse_mode=ParseMode.MARKDOWN,
                 timeout=60,
             )
     else:
         update.effective_message.reply_photo(
-            NOINOI_IMG, caption= "I a'm alive 📍 \n<b>I cant sleep.:</b> <code>{}</code>".format(
+            NOINOI_IMG, caption= "I a'm alive 💔 \n<b>I cant sleep.:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
