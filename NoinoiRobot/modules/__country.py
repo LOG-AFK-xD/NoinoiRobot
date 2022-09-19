@@ -101,7 +101,7 @@ Time Zones:- {tom}
 Top Level Domain:- {lanester}
 wikipedia:- {wiki}</b>
 
-Gathered By NOINOI.</b>
+Gathered By AZUKA.</b>
 """
     
     
@@ -113,4 +113,4 @@ Gathered By NOINOI.</b>
     
     await event.delete()
 
-__mod_name__ = "ᴄᴏᴜɴᴛʀʏ"
+__mod_name__ = "Cᴏᴜɴᴛʀʏ"
