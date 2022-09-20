@@ -339,7 +339,7 @@ if is_module_loaded(FILENAME):
 
   
 
-    __mod_name__ = "ᴅɪsᴀʙʟᴇ"
+    __mod_name__ = "Dɪsᴀʙʟᴇ"
 
 else:
     DisableAbleCommandHandler = CommandHandler
