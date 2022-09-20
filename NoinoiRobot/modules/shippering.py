@@ -77,5 +77,5 @@ __New couple of the day may be chosen at 12AM {tomorrow}__"""
 
 
 
-__mod_name__ = "ᴄᴏᴜᴘʟᴇs"
+__mod_name__ = "Cᴏᴜᴘʟᴇs"
 
