@@ -454,7 +454,7 @@ def makepack_internal(
 __mod_name__ = "Sᴛɪᴄᴋᴇʀ"
 
 __help__ = """
-𝗣𝗟𝗨𝗚𝗜𝗡𝗦 𝗙𝗥𝗢𝗠 𝗡𝗢𝗜𝗡𝗢𝗜 𝗕𝗢𝗧 📚
+Plugins From Azuka Bot 📚
 
 * HELP FOR STICKER MENU TOOLS *
 ❍ /stickerid - `reply to a sticker to me to tell you its file ID.`
@@ -466,7 +466,6 @@ __help__ = """
 ❍ /kamuii - `To deepefying stiker`
 ❍ /mmf - `To draw a text for sticker or pohots`
 
-* 🌸 𝗣𝗢𝗪𝗘𝗗 𝗕𝗬 𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗣𝗟𝗔𝗬𝗘𝗥*
 """
 
 STICKERID_HANDLER = DisableAbleCommandHandler("stickerid", stickerid)
