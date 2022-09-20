@@ -66,4 +66,4 @@ async def _(event):
 
 
 
-__mod_name__ = "ɢᴀᴍᴇ"
+__mod_name__ = "Gᴀᴍᴇ"
