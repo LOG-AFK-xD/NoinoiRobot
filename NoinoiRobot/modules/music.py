@@ -187,5 +187,4 @@ async def lyrics_func(_, message):
 /lyricz - `reply to a sticker to me to upload its raw PNG file.`
 /ytmusic - `reply to a sticker to me to upload its raw PNG file.`
 
-*🌸 𝗣𝗢𝗪𝗘𝗗 𝗕𝗬 𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗣𝗟𝗔𝗬𝗘𝗥*
 """
