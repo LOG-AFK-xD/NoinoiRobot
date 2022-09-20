@@ -39,6 +39,6 @@ async def _(event):
         f"<b><u>Match information gathered successful</b></u>\n\n\n<code>{Sed}</code>",
         parse_mode="HTML",
     )
-__mod_name__ = "ᴄʀɪᴄᴋᴇᴛ"
+__mod_name__ = "Cʀɪᴄᴋᴇᴛ"
 
 
