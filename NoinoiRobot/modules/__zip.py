@@ -212,12 +212,11 @@ def get_lst_of_files(input_directory, output_lst):
 __mod_name__ = "ᴢɪᴘᴘᴇʀ"
 
 __help__ = """
-𝗣𝗟𝗨𝗚𝗜𝗡𝗦 𝗙𝗥𝗢𝗠 𝗡𝗢𝗜𝗡𝗢𝗜 𝗕𝗢𝗧 📚
+Plugins from Azuka Bot 📚
 
 *THIS COMMAND IS USE FOR ZIP AND UNZIP*
 
 ❍ /zip - `reply to a sticker to me to tell you its file ID.`
 ❍ /unzip - `reply to a sticker to me to upload its raw PNG file.`
 
-🌸 𝗣𝗢𝗪𝗘𝗗 𝗕𝗬 𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗣𝗟𝗔𝗬𝗘𝗥
 """
