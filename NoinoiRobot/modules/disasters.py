@@ -581,10 +581,10 @@ dispatcher.add_handler(SUPPORTLIST_HANDLER)
 dispatcher.add_handler(SUDOLIST_HANDLER)
 dispatcher.add_handler(DEVLIST_HANDLER)
 
-__mod_name__ = "ᴅɪsᴀsᴛᴇʀ"
+__mod_name__ = "Dɪsᴀsᴛᴇʀ"
 
 __help__ = f"""
-𝗣𝗟𝗨𝗚𝗜𝗡𝗦 𝗙𝗥𝗢𝗠 𝗡𝗢𝗜𝗡𝗢𝗜 𝗕𝗢𝗧 📚
+Plugins From Azuka Bot 📚
 
  *List all special users:*
   ❍ /dragons*:* Lists all Dragon disasters
@@ -675,7 +675,6 @@ __help__ = f"""
   ❍ /del var <var>*:* Delete existing variable.
   ❍ /logs Get heroku dyno logs.
 
- 🌸 𝗣𝗢𝗪𝗘𝗗 𝗕𝗬 𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗣𝗟𝗔𝗬𝗘𝗥
 """
 
 __handlers__ = [
