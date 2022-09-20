@@ -1,4 +1,4 @@
-# credits @InukaAsith, @Mr_dark_prince
+# credits @InukaAsith, @Official_afk_xD
 
 import logging
 import time
@@ -179,9 +179,9 @@ def config(client, message):
         )
 
 
-__help__ = """𝗣𝗟𝗨𝗚𝗜𝗡𝗦 𝗙𝗥𝗢𝗠 𝗡𝗢𝗜𝗡𝗢𝗜 𝗕𝗢𝗧 📚
+__help__ = """Plugins for Azuka Bot 📚
 *FORCE SUBSCRIBE:*
-❍ Luna can mute members who are not subscribed your channel until they subscribe
+❍ Azuka can mute members who are not subscribed your channel until they subscribe
 ❍ When enabled I will mute unsubscribed members and show them a unmute button. When they pressed the button I will unmute them
 *Setup*
 *Only creator*
@@ -196,6 +196,5 @@ __help__ = """𝗣𝗟𝗨𝗚𝗜𝗡𝗦 𝗙𝗥𝗢𝗠 𝗡𝗢𝗜𝗡𝗢
   💡If you disable fsub, you need to set again for working.. /fsub {channel username} 
  ❍ /fsub clear - To unmute all members who muted by me.
  
- 🌸 𝗣𝗢𝗪𝗘𝗗 𝗕𝗬 𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗣𝗟𝗔𝗬𝗘𝗥
 """
-__mod_name__ = "ғ - sᴜʙ"
+__mod_name__ = "F - Sᴜʙ"
