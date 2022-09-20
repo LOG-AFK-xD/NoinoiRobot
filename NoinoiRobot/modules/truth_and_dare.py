@@ -27,10 +27,9 @@ dispatcher.add_handler(DARE_HANDLER)
 __mod_name__ = "ᴛ & ᴅ"
 
 __help__ = """
-𝗣𝗟𝗨𝗚𝗜𝗡𝗦 𝗙𝗥𝗢𝗠 𝗡𝗢𝗜𝗡𝗢𝗜 𝗕𝗢𝗧 📚
+Plugins From Azuka Bot 📚
 
 /truth - `for play game truth and dare.`
 /dare - `for play game truth and dare.`
 
-*🌸 𝗣𝗢𝗪𝗘𝗗 𝗕𝗬 𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗣𝗟𝗔𝗬𝗘𝗥*
 """
