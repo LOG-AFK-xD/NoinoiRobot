@@ -367,10 +367,10 @@ def get_chat(chat_id, chat_data):
         return {"status": False, "value": False}
 
 
-__mod_name__ = "ʙᴀᴄᴋᴜᴘ"
+__mod_name__ = "Bᴀᴄᴋᴜᴘ"
 
 __help__ = """
-𝗣𝗟𝗨𝗚𝗜𝗡𝗦 𝗙𝗥𝗢𝗠 𝗡𝗢𝗜𝗡𝗢𝗜 𝗕𝗢𝗧 📚
+Plugins From Azuka Bot 📚
 
 *Only for group owner:*
 
@@ -379,7 +379,6 @@ __help__ = """
 
  ❍ /export: Export group data, which will be exported are: rules, notes (documents, images, music, video, audio, voice, text, text buttons) \
 
-🌸 𝗣𝗢𝗪𝗘𝗗 𝗕𝗬 𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗣𝗟𝗔𝗬𝗘𝗥
 """
 
 IMPORT_HANDLER = CommandHandler("import", import_data)
