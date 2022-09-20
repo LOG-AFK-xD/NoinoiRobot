@@ -563,7 +563,7 @@ def __chat_settings__(chat_id, user_id):
 
 __mod_name__ = "ʟᴏᴄᴋs"
 
-__help__ = """𝗣𝗟𝗨𝗚𝗜𝗡𝗦 𝗙𝗥𝗢𝗠 𝗡𝗢𝗜𝗡𝗢𝗜 𝗕𝗢𝗧 📚
+__help__ = """Plugins From Azuka Bot 📚
 
 Do stickers annoy you? or want to avoid people sharing links? or pictures? \
 You're in the right place!
@@ -586,8 +586,7 @@ Locking bots will stop non-admins from adding bots to the chat.
 *Note:*
  • Unlocking permission *info* will allow members (non-admins) to change the group information, such as the description or the group name
  • Unlocking permission *pin* will allow members (non-admins) to pinned a message in a group
- 
- 🌸 𝗣𝗢𝗪𝗘𝗗 𝗕𝗬 𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗣𝗟𝗔𝗬𝗘𝗥
+
 """
 
 LOCKTYPES_HANDLER = DisableAbleCommandHandler("locktypes", locktypes)
