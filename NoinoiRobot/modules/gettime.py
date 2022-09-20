@@ -95,14 +95,13 @@ TIME_HANDLER = DisableAbleCommandHandler("time", gettime)
 
 dispatcher.add_handler(TIME_HANDLER)
 
-__mod_name__ = "ᴛɪᴍᴇ"
+__mod_name__ = "Tɪᴍᴇ"
 
 __help__ = """
-*𝗣𝗟𝗨𝗚𝗜𝗡𝗦 𝗙𝗥𝗢𝗠 𝗡𝗢𝗜𝗡𝗢𝗜 𝗕𝗢𝗧 📚*
+*Plugins From Azuka Bot 📚*
 
 /time - `TO GET TIME FOR COUNTRY.`
 
-*🌸 𝗣𝗢𝗪𝗘𝗗 𝗕𝗬 𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗣𝗟𝗔𝗬𝗘𝗥*
 """
 
 __command_list__ = ["time"]
