@@ -54,6 +54,6 @@ CONVERTER_HANDLER = CommandHandler("cash", convert)
 
 dispatcher.add_handler(CONVERTER_HANDLER)
 
-__Mod_Name__ = ""
+__Mod_Name__ = "Currency"
 
 __handlers__ = [CONVERTER_HANDLER]
