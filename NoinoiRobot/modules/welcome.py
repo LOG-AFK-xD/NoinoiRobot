@@ -1170,9 +1170,9 @@ dispatcher.add_handler(CLEAN_SERVICE_HANDLER)
 dispatcher.add_handler(BUTTON_VERIFY_HANDLER)
 dispatcher.add_handler(WELCOME_MUTE_HELP)
 
-__mod_name__ = "ᴡᴇʟᴄᴏᴍᴇ"
+__mod_name__ = "Wᴇʟᴄᴏᴍᴇ"
 __help__ = """
-𝗣𝗟𝗨𝗚𝗜𝗡𝗦 𝗙𝗥𝗢𝗠 𝗡𝗢𝗜𝗡𝗢𝗜 𝗕𝗢𝗧 📚 
+Plugins For Azuka Bot 📚 
 
 *Admins only:*
  ❍ /welcome <on/off>*:* enable/disable welcome messages.
@@ -1191,8 +1191,7 @@ user joined chat, user left chat.
 
 *Welcome markdown:* 
  ❍ /welcomehelp*:* view more formatting information for custom welcome/goodbye messages.
- 
- 🌸 𝗣𝗢𝗪𝗘𝗗 𝗕𝗬 𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗣𝗟𝗔𝗬𝗘𝗥
+
 """
 __handlers__ = [
     NEW_MEM_HANDLER,
