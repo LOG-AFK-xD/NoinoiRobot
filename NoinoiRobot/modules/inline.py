@@ -3,11 +3,11 @@ import traceback
 from NoinoiRobot import pbot as app
 from NoinoiRobot.utils.inlinefuncs import *
 
-__mod_name__ = "ɪɴʟɪɴᴇ"
+__mod_name__ = "Iɴʟɪɴᴇ"
 
 __help__ = """
 commands can be used by anyone in a group via inline.
-Usage: @noinoi_bot <func> <query>"""
+Usage: @Azuka_robot <func> <query>"""
 
 @app.on_inline_query()
 async def inline_query_handler(client, query):
