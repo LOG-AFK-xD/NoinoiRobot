@@ -98,4 +98,4 @@ def is_gif(file):
     return DocumentAttributeAnimated() in getattr(file, "document", file).attributes
 
 
-__mod_name__ = "ᴀɴɪᴍᴇ-𝟸"
+__mod_name__ = "Aɴɪᴍᴇ-𝟸"
