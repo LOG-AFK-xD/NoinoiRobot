@@ -87,4 +87,4 @@ async def mentionall(event):
                 usrtxt = ""
 
 
-__mod_name__ = "ᴍᴇɴᴛɪᴏɴ"
+__mod_name__ = "Mᴇɴᴛɪᴏɴ"
