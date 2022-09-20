@@ -1,11 +1,11 @@
-# © @Mr_Dark_Prince
+# © @Official_Afk_xD
 import aiohttp
 from pyrogram import filters
 from NoinoiRobot import pbot
 from NoinoiRobot.pyrogramee.errors import capture_err
 
 
-__mod_name__ = "ɢɪᴛʜᴜʙ"
+__mod_name__ = "Gɪᴛʜᴜʙ"
 
 
 @pbot.on_message(filters.command('github'))
