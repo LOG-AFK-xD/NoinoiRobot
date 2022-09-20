@@ -399,7 +399,7 @@ def selfunban(context: CallbackContext, update: Update) -> str:
 
 
 __help__ = """
-𝗣𝗟𝗨𝗚𝗜𝗡𝗦 𝗙𝗥𝗢𝗠 𝗡𝗢𝗜𝗡𝗢𝗜 𝗕𝗢𝗧 📚
+Plugins From Azuka Bot 📚
 
  ❍ /punchme*:* punchs the user who issued the command
 
@@ -415,7 +415,6 @@ __help__ = """
  ❍ /tmute <userhandle> x(m/h/d)*:* mutes a user for x time. (via handle, or reply). `m` = `minutes`, `h` = `hours`, `d` = `days`.
  ❍ /unmute <userhandle>*:* unmutes a user. Can also be used as a reply, muting the replied to user.
  
- 🌸 𝗣𝗢𝗪𝗘𝗗 𝗕𝗬 𝗡𝗢𝗜𝗡𝗢𝗜 𝗠𝗨𝗦𝗜𝗖 𝗣𝗟𝗔𝗬𝗘𝗥
 """
 
 BAN_HANDLER = CommandHandler(["ban", "sban"], ban)
