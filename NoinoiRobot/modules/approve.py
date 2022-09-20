@@ -212,7 +212,7 @@ dispatcher.add_handler(UNAPPROVEALL)
 dispatcher.add_handler(UNAPPROVEALL_BTN)
 
 
-__mod_name__ = "ᴀᴘᴘʀᴏᴠᴇ"
+__mod_name__ = "Aᴘᴘʀᴏᴠᴇ"
 
 
 
